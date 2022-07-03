@@ -5,10 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class test {
 
-    public static void main(String[] args) {
+    public void pruebaInicio(){
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kevin\\Desktop\\Universidad\\2022\\7mo Cuatrimestre" +
-                "\\Calidad de software\\InstallationProject\\Proyecto\\untitled\\src\\main\\resources\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kevin\\Desktop\\Universidad\\2022\\7mo Cuatrimestre\\Calidad de software\\InstallationProject\\Driver\\Chromedriver.exe");
 
         //initialize browser
         WebDriver driver = new ChromeDriver();
