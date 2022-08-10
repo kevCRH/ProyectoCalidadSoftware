@@ -6,6 +6,20 @@ import org.testng.annotations.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
+
+
+/*IMPORTANTE ESTE COMENTARIO.*/
+
+/*
+
+* ESTA CLASE LLAMADA TESTNG SOLO ERA PARA PROBAR LA LIBRERIA DE TESTNG. LAS PRUEBAS DE AUTOMATIZACION SON LAS QUE TIENE
+* EL NOMBRE DE TEST_#
+*
+* */
+
+
+
 public class TestNG {
 
     private String url = "https://demoqa.com/";
