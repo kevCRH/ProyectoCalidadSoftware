@@ -18,10 +18,14 @@ public class MainClass {
         TestNG l5 = new TestNG();
 
         //t.pruebaInicio();
-        //l.pruebaElements();
-        //l2.pruebaWebTables();
-        l3.pruebaSelect();
-        //l4.pruebaDragDrop();
+        //l.setBaseUrl();
+        //l.testCase();
+        //l2.pruebaWebTablesSet();
+        //l2.testCase();
+        //l3.pruebaFormSet();
+        //l3.testCase();
+        l4.pruebaDragSet();
+        l4.testCase();
         //l5.setBaseUrl();
         //l5.testCase();
 
