@@ -9,8 +9,8 @@ import Locators.TestNG;
 
 public class MainClass {
 
-    public static void main(String[] args) {
-        test t = new test();
+    public static void main(String[] args) throws InterruptedException {
+        //test t = new test();
         Test_1 l = new Test_1();
         Test_2 l2 = new Test_2();
         Test_3 l3 = new Test_3();
@@ -21,9 +21,9 @@ public class MainClass {
         //l.pruebaElements();
         //l2.pruebaWebTables();
         //l3.pruebaForms();
-        l4.pruebaDragDrop();
-        //l5.setBaseUrl();
-        //l5.testCase();
+        //l4.pruebaDragDrop();
+        l5.setBaseUrl();
+        l5.testCase();
 
     }
 }
