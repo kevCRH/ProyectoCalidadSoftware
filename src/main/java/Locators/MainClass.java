@@ -20,10 +20,10 @@ public class MainClass {
         //t.pruebaInicio();
         //l.pruebaElements();
         //l2.pruebaWebTables();
-        //l3.pruebaForms();
+        l3.pruebaSelect();
         //l4.pruebaDragDrop();
-        l5.setBaseUrl();
-        l5.testCase();
+        //l5.setBaseUrl();
+        //l5.testCase();
 
     }
 }

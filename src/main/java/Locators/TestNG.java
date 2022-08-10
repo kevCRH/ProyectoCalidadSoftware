@@ -35,8 +35,8 @@ public class TestNG {
 
     @Test
     public void testCase() throws InterruptedException {
-        String fullname = "Jorge Carranza Cespedes";
 
+        String fullname = "Jorge Carranza Cespedes";
         String email = "ufyrCarranza@gmail.com";
         String currentAddress = "San Roque de Barva, Heredia.";
         String permanentAddress = "San Roque de Barva, Heredia.";
@@ -54,6 +54,7 @@ public class TestNG {
         WebElement currentAddressInput = driver.findElement(By.id("currentAddress"));
         WebElement permanentAddressInput = driver.findElement(By.id("permanentAddress"));
         Thread.sleep(2500);
+
         // les mandamos la informacion con la que se desea llenar los espacios
         fullNameInput.sendKeys(fullname);
         Thread.sleep(2500);
@@ -67,7 +68,7 @@ public class TestNG {
         //indentificamos por id el buton de submit y lo clickeamos
         WebElement submitButton = driver.findElement(By.id("submit"));
         submitButton.click();
-        Thread.sleep(2500);
+        Thread.sleep(5000);
         driver.close();
     }
 }
