@@ -1,5 +1,5 @@
-package test.java;
-import Test.test;
+package Locators;
+import test.java.Test.test;
 import Locators.Test_1;
 import Locators.Test_2;
 import Locators.Test_3;
